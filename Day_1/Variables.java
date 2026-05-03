@@ -1,6 +1,6 @@
  public class Variables{
    public static void main(String[] args) {
-     //Variables in java...
+
      byte b = 127;
      System.out.println(b);
      int i = 56;

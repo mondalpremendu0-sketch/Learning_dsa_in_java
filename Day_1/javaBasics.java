@@ -1,13 +1,13 @@
 public class javaBasics{
   public static void main(String[] args) {
-    /* Output in java... */
+
     System.out.print("hello world\n");
     System.out.println("hello world");
     System.out.println("****");
     System.out.println("***");
     System.out.println("**");
     System.out.println("*");
-    //variables...
+
     int a = 5;
     System.out.println(a);
     int b = 7;
