@@ -8,6 +8,11 @@
      char ch = 'a';
      System.out.println(ch);
      String s = "Prem mon";
-     System.out.println(i);
+     System.out.println(s);
+     boolean var = true;
+     System.out.println(var);
+     double f = 3.14;
+     System.out.println(f);
+     
    }
  }
