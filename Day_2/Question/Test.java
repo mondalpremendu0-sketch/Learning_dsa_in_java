@@ -49,7 +49,13 @@ public class Test{
    
    
    //5. Question no - 5
-   
+    int g = 10, h = 5;
+
+    int expp1 = (h * (g / h + g / h));
+    int expp2 = (h * g / h + h * g / h);
+    
+    System.out.println(expp1);
+    System.out.println(expp2);
    
    
    
