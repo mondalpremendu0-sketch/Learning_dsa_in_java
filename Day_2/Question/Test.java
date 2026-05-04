@@ -27,7 +27,15 @@ public class Test{
     
    //3. Question no - 3
    
-   
+   int r, o, k;
+
+r = o = k = 2;
+
+r += o;
+o -= k;
+k /= (r + o);
+
+System.out.println(r + " " + o + " " + k);
    
    
    
