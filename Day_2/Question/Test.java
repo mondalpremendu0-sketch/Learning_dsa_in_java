@@ -27,16 +27,28 @@ public class Test{
     
    //3. Question no - 3
    
-   int r, o, k;
+    int r, o, k;
 
-r = o = k = 2;
-
-r += o;
-o -= k;
-k /= (r + o);
-
-System.out.println(r + " " + o + " " + k);
+    r = o = k = 2;
+    
+    r += o;
+    o -= k;
+    k /= (r + o);
+    
+    System.out.println(r + " " + o + " " + k);
+       
+   //4. Question no - 4
+    int X = 9, Y = 12;
+    int A = 2, B = 4, C = 6;
+    
+    int exp = 4/3 * (X + 34) + 9 * (A + B * C) + (3 + Y * (2 + A)) / (A + B*Y);
+    
+    System.out.println(exp);
    
+   
+   
+   
+   //5. Question no - 5
    
    
    
