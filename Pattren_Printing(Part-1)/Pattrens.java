@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class SqurePattren {
+public class Pattrens {
     public static void main(String[] args) {
        //Square Pattren--
 
