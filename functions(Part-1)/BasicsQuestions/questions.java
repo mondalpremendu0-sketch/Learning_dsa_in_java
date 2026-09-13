@@ -131,23 +131,22 @@ public class questions {
     // Question 7---------
     public static void decimal_to_binary() {
 
-        int decimal = 16;
-        String sbinary = "";
+        int decimal = 11;
+        int binary = 0;
+        int idx = 0;
 
         while (decimal > 0) {
+            
             int rem = decimal % 2;
+            binary =  binary + rem * (int) Math.pow(10, idx);
+            idx++;
             decimal /= 2;
-            sbinary += rem;
+            
         }
 
-        String Binary = "";
-        for (int i = sbinary.length()-1; i >= 0; i--) {
+        System.out.println(binary);
 
-            Binary += sbinary.charAt(i);
-
-        }
-
-        System.out.println(Binary);
+        
 
     }
 
