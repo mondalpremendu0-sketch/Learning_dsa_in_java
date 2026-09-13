@@ -96,7 +96,7 @@ public class Assignment {
         
         System.out.print("enter your number: ");
         int y = sc.nextInt();
-        System.out.println("Sum = "+sum_of_Digits(y)); 
+        System.out.println("Sum = " + sum_of_Digits(y)); 
     }
 
 }
