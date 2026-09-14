@@ -68,9 +68,9 @@ public class arrayCC {
     public static void main(String args[]) {
 
         int nums[] = { 2, 4, 6, 8, 10 };
-        // Pairs(nums);
-        // Print_SubArrays(nums);
-        //Sum_of_SubArray(nums);
+        Pairs(nums);
+        Print_SubArrays(nums);
+        Sum_of_SubArray(nums);
         Max_Subarray(nums);
     }
 
