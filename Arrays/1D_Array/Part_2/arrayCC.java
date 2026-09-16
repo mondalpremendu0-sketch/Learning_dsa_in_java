@@ -50,6 +50,7 @@ public class arrayCC {
         Pairs(nums);
         Print_SubArrays(nums);
         Sum_of_SubArray(nums);
+        
     }
 
 }
