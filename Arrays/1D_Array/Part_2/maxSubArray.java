@@ -46,10 +46,30 @@ public class maxSubArray {
 
     }
 
+    
+    // Max Sum of subArray(kadans).........O(n)
+    public static int kadanas(int arr[]) {
+        int currSum = 0;
+        int MaxSum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            currSum += arr[i];
+            if (currSum > MaxSum) {
+                MaxSum = currSum;
+            }
+            if (currSum < 0) {
+                currSum = 0;
+            }
+        }
+        return MaxSum;
+
+    }
+
     public static void main(String[] args) {
         int nums[] = { 2, 4, 6, 8, 10 };
         // Max_Subarray(nums);
-        System.out.println(PrefixSum(nums));
+        //System.out.println(PrefixSum(nums));
+        System.out.println(kadanas(nums));
 
     }
 }
