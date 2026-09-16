@@ -43,35 +43,13 @@ public class arrayCC {
         }
     }
 
-    //Max Sum of subArray.........
-    public static void Max_Subarray(int arr[]) {
-        int currentSum = 0;
-        int MaxSum = -1;
-
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = i; j < arr.length; j++) {
-                currentSum = 0;
-                for (int k = i; k <= j; k++) {
-                    currentSum += arr[k];
-                }
-                if (MaxSum < currentSum) {
-                    MaxSum = currentSum;
-                }
-                System.out.print("Sum = " + currentSum);
-
-            }
-            System.out.println();
-        }
-        System.out.println("The Max = " + MaxSum);
-    }
-
+    
     public static void main(String args[]) {
 
         int nums[] = { 2, 4, 6, 8, 10 };
-        // Pairs(nums);
-        // Print_SubArrays(nums);
-        //Sum_of_SubArray(nums);
-        Max_Subarray(nums);
+        Pairs(nums);
+        Print_SubArrays(nums);
+        Sum_of_SubArray(nums);
     }
 
 }
