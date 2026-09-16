@@ -67,8 +67,8 @@ public class maxSubArray {
 
     public static void main(String[] args) {
         int nums[] = { 2, 4, 6, 8, 10 };
-        // Max_Subarray(nums);
-        //System.out.println(PrefixSum(nums));
+        Max_Subarray(nums);
+        System.out.println(PrefixSum(nums));
         System.out.println(kadanas(nums));
 
     }
