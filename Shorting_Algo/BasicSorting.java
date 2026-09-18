@@ -1,5 +1,5 @@
 
-public class BasicShorting {
+public class BasicSorting {
 
     // Bubble Short-------O(n^2)
     public static void BubbleShort(int arr[]) {
