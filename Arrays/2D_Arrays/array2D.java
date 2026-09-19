@@ -17,11 +17,20 @@ public class array2D {
 
             }
             // bottom
+            if (sr == er) {
+                break;
+            }
             for (int k = ec - 1; k >= sc; k--) {
+                
                 System.out.print(arr[er][k] + ", ");
             }
             // left
+            if (sc == ec) {
+                break;
+            }
+
             for (int l = er - 1; l >= sr + 1; l--) {
+                
                 System.out.print(arr[l][sc] + ", ");
 
             }
@@ -38,8 +47,8 @@ public class array2D {
 
                 { 1, 2, 3, 4 },
                 { 5, 6, 7, 8 },
-                { 9, 10, 11, 12 },
-                { 13, 14, 15, 16 }
+                { 9, 10, 11, 12 }
+
         };
         SpiralPrint(matrix);
     }

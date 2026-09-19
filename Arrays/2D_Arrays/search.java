@@ -12,10 +12,22 @@ public class search {
         }
     }
 
-    // Stair search------------------> O(n^x)
-    public static void StairSearch(int arr[][], int key) {
-        int n = arr.length, m = arr[0].length;
-        
+    // Stair search------------------> O(n)
+    public static void Staircase_Search(int arr[][], int key) {
+        int row = 0, col = arr[0].length - 1;
+
+        while (row < arr.length && col >= 0) {
+            if (arr[row][col] == key) {
+                System.out.print("(" + row + "," + col + ")");
+                break;
+            } else if (key < arr[row][col]) {
+                col--;
+            } else {
+                row++;
+            }
+
+        }
+
     }
 
     public static void main(String[] args) {
@@ -26,6 +38,7 @@ public class search {
                 { 9, 10, 11, 12 },
                 { 13, 14, 15, 16 }
         };
-        Lsearch(matrix, 14);
+        // Lsearch(matrix, 14);
+        Staircase_Search(matrix, 14);
     }
 }
